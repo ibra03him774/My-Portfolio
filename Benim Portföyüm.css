@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+ 
+html {
+  scroll-behavior: smooth;
+} 
+ 
+*{ padding: 0; margin: 0; color:white; font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; }
+ 
+body{ background: oklch(12.9% 0.042 264.695); height: 100vh; }
+
+.org{
+  color:gray; font-style: italic;
+}
+ 
+nav {
+  position: fixed;
+  top: 0;       
+  left: 0;                    
+  width: 100%;                 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color:oklch(12.9% 0.042 264.695);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  z-index: 10;
+}
+ 
+nav h2{ color:white; } nav ul{ display: flex; justify-content: space-evenly; list-style: none; width:50%;
+ 
+}
+nav h2 span{
+  color:oklch(40.1% 0.17 325.612);;
+}
+
+nav ul li {
+  transition: 1s;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+nav ul li a:hover {
+  text-decoration: overline;
+  color: oklch(40.1% 0.17 325.612);
+}
+
+nav ul li a:active {
+  color: oklch(40.1% 0.17 325.612);
+}
+
+select {
+  background: transparent;
+  color: white;
+  width: 90px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  transition: 0.3s;
+}
+
+select:hover {
+  background: none;
+  border:3px solid purple;
+  transform: scale(1.05);
+}
+
+select:focus {
+  outline: none;
+  background: #3a235f;
+  border:3px solid gold;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+
+.frontpage{ 
+  width: 50%; 
+  height: 70%; 
+  padding: 30px; 
+  margin-top: 200px; 
+  margin-bottom: 80px;
+ 
+}
+ 
+.frontpage h1{ 
+  color: white; 
+  font-size: 60px; } 
+  
+  .frontpage h2{ color:white; 
+  font-size: 40px; 
+  padding-top: 10px; }
+ 
+.inline { display: inline; margin-right: 5px; } #animated-text { font-size: 40px; font-weight: bold; animation: colorChange 5s infinite; }
+ 
+@keyframes colorChange { 0%   { color: #00bfff; } 25%  { color: #ff00ff; } 50%  { color: #00ff99; } 75%  { color: gold; } 100% { color: #00bfff; } }
+ 
+.frontpage p{ color: white; width: 700px; font-size: 20px; padding-top: 20px; padding-bottom: 30px;
+ 
+}
+ 
+.socialmedia{ width: 400px; margin-left: 30px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: 0.5s;}
+
+.socialmedia .facebook i:hover {
+  color: #1877f2;
+}
+.socialmedia .linkedin i:hover {
+  color: #0077b5;
+}
+.socialmedia .github i:hover {
+  color: darkgray;
+}
+.socialmedia .whatsapp i:hover {
+   color: #25D366;
+}
+ 
+.cv{ background:#301934;
+border: 3px solid purple; width:130px; height: 40px; border-radius: 20px; color: white; font-weight: 50px; cursor: pointer;transition:0.4s} .cv a{text-decoration: none; }
+.cv:hover {
+background:black;
+border: 3px solid gold;
+}
+ 
+.socialmedia a i{ color: white; font-size:20px; border-radius: 50px; }
+ 
+.mom { display: flex; justify-content: space-between; align-items: center; padding: 50px; }
+ 
+.frontpage { width: 50%; padding: 30px; 
+ 
+}
+ 
+.image-box { width: 50%; display: flex; justify-content: center; align-items: center; overflow: hidden; margin-top: 50px; }
+ 
+.image-box img { width: 100%; height:600px; max-width: 400px; border-radius: 10px; margin-left: 50px; object-fit: cover; border: 5px solid #00bfff; animation: colorChange2 5s infinite; } @keyframes colorChange2 { 0%   { border-color: #00bfff; } 25%  { border-color: #ff00ff; } 50%  { border-color: #00ff99; } 75%  { border-color: gold; } 100% { border-color: #00bfff; } }
+ 
+nav ul li a:hover{ color: oklch(40.1% 0.17 325.612); }
+
+
+
+section{
+padding-top: 150px;
+  height: 100vh;
+}
+
+.father{
+  display: flex;
+justify-content:space-around ;
+gap:10px;
+margin-right:20px;
+}
+
+
+
+.education , .experiences , .languages{
+  width:400px;
+  border: 2px solid oklch(40.1% 0.17 325.612);
+  text-align:left;
+  padding:10px;
+  margin-left:40px;
+  font-size:15px;
+}
+
+.education h2, .experiences h2, .languages h2{
+  font-size: 50px;
+}
+
+.education h3, .languages h3{
+  color : oklch(40.1% 0.17 325.612) ;
+  font-size: 30px;
+}
+
+.experiences h3{
+  font-size:20px;
+}
+
+.languages pre{
+  font-size:20px;
+}
+.languages b{
+font-style:20px;
+color:oklch(40.1% 0.17 325.612);
+}
+
+.skills{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+  .itskills , .otherskills {
+  width:400px;
+  border: 2px solid oklch(40.1% 0.17 325.612);
+  text-align:left;
+  padding:10px;
+  margin-left:40px;
+  font-size:15px;
+}
+
+.itskills h2 , .otherskills h2{
+  font-size: 50px;
+
+}
+
+.itskills pre , .otherskills li{
+  list-style-position: inside;
+  font-size: 20px;
+
+}
+
+.rectangle1 {
+  height: 20px;
+  width: 90%;
+  background: linear-gradient(to right, #89CFF0 0%,#89CFF0 90%, purple 90%, purple 100%);
+}
+.rectangle2 {
+  height: 20px;
+  width: 90%;
+  background: linear-gradient(to right, #89CFF0 0%,#89CFF0 80%, purple 80%, purple 100%);
+}
+.rectangle3 {
+  height: 20px;
+  width: 90%;
+  background: linear-gradient(to right, #89CFF0 0%,#89CFF0 60%, purple 60%, purple 100%);
+}
+.rectangle4 {
+  height: 20px;
+  width: 90%;
+  background: linear-gradient(to right, #89CFF0 0%,#89CFF0 90%, purple 90%, purple 100%);
+}
+.rectangle5 {
+  height: 20px;
+  width: 90%;
+  background: linear-gradient(to right, #89CFF0 0%,#89CFF0 70%, purple 70%, purple 100%);
+}
+
+.contact {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .inputs {
+  width: 70%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact h2 {
+  font-size: 70px;
+  color: white;
+}
+input {
+  font-size: 30px;
+  background: none;
+  border: 5px solid purple;
+  margin: 5px;
+}
+
+#message{
+  width:700px;
+  height:200px; 
+}
+.contact button{ background:#301934;
+border: 3px solid purple; width:150px; height: 60px; border-radius: 20px; font-size:20px; color: white; font-weight: 50px; cursor: pointer; transition: 0.7s;} .cv a{text-decoration: none;}
+.contact button:hover{
+background:black;
+border: 3px solid gold;
+}
+
+.copy{
+  width:100%;
+  height: 60px;
+  text-align: center;
+  padding:10px;
+  margin-top:30px;
+}
+
+.headcolor{
+  color:purple;
+}
+#my-projects  h2 {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+
+#my-projects .projects{
+  display:flex;
+  justify-content:  space-evenly;
+  align-items: center;
+  margin-top:100px;
+}
+
+#my-projects .projects .first-project{
+  background: gold;
+  width:300px;
+  height:300px;
+  border:10px solid purple;
+  border-radius:10px;
+}#my-projects .projects .first-project:hover{
+  background: none;
+border:10px solid gold;
+}
+
+#my-projects .projects .first-project img{
+  width:100%;
+  height:100%;
+}
+
+#my-projects .projects .first-project button{
+  background: mediumpurple;
+  border:5px solid purple;
+  border-radius: 10px;
+  width:150px;
+  height:50px;
+ margin-top:20px;
+ margin-left:70px;
+ font-size:20px;
+
+}#my-projects .projects .first-project button:hover{
+  background: none;
+  border-color:gold;
+}
+
+#my-projects .projects .first-project button a{
+  text-decoration: none;
+}#my-projects .projects .first-project button a:hover{
+cursor: pointer;
+ color:gold;
+}
+
+
+#my-projects .projects .second-project{
+  background: orangered;
+  width:300px;
+  height:300px;
+  border:10px solid purple;
+  border-radius:10px;
+}#my-projects .projects .second-project:hover{
+  background: none;
+border:10px solid gold;
+}
+
+#my-projects .projects .second-project img{
+  width:100%;
+  height:100%;
+}
+
+#my-projects .projects .second-project button{
+  background: mediumpurple;
+  border:5px solid purple;
+  border-radius: 10px;
+  width:150px;
+  height:50px;
+ margin-top:20px;
+ margin-left:70px;
+ font-size:20px;
+
+}#my-projects .projects .second-project button:hover{
+  background: none;
+  border-color:gold;
+}
+
+#my-projects .projects .second-project button a{
+  text-decoration: none;
+}#my-projects .projects .second-project button a:hover{
+cursor: pointer;
+ color:gold;
+}
+
+
+
+/* Media Queries for Responsive Design */
+
+/* For tablets and small laptops */
+@media (max-width: 1024px) {
+  .mom {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .frontpage, .image-box {
+    width: 90%;
+    margin-top: 100px;
+  }
+  
+  .frontpage p {
+    width: 100%;
+  }
+  
+  .image-box img {
+    margin-left: 0;
+    height: 500px;
+  }
+  
+  .father {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+  
+  .education, .experiences, .languages {
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .itskills, .otherskills {
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  #my-projects .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project {
+    margin-bottom: 30px;
+  }
+  
+  .contact .inputs {
+    width: 90%;
+  }
+  
+  #message {
+    width: 100%;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  nav ul {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 5px;
+  }
+  
+  .frontpage h1 {
+    font-size: 40px;
+  }
+  
+  .frontpage h2 {
+    font-size: 30px;
+  }
+  
+  .socialmedia {
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+  
+  .image-box img {
+    height: 400px;
+  }
+  
+  .education h2, .experiences h2, .languages h2,
+  .itskills h2, .otherskills h2,
+  .contact h2,
+  #my-projects h2 {
+    font-size: 35px;
+  }
+  
+  input {
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  .contact button {
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+  }
+  
+  #my-projects .projects .first-project button,
+  #my-projects .projects .second-project button {
+    margin-left: 80px;
+  }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+  .frontpage h1 {
+    font-size: 30px;
+  }
+  
+  .frontpage h2 {
+    font-size: 24px;
+  }
+  
+  .frontpage p {
+    font-size: 16px;
+  }
+  
+  .image-box img {
+    height: 300px;
+  }
+  
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project {
+    width: 250px;
+    height: 250px;
+  }
+  
+  #my-projects .projects .first-project button,
+  #my-projects .projects .second-project button {
+    margin-left: 70px;
+  }
+  
+  .copy {
+    font-size: 14px;
+  }
+}
