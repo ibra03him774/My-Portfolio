@@ -1,11 +1,10 @@
 <!DOCTYPE html>  
 <html lang="de" dir="ltr">
-  
 <head>  
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1">  
   <meta name="author" content="Ibrahim Al-Aghbari">  
-  <meta name="description" content="Willkommen in meinem Portfolio">  
+  <meta name="description" content="Welcome to my Portfolio">  
   <meta name="keywords" content="CV, Ibrahim, Programmer, IT">  
   <meta name="robots" content="index, follow">  
   <title>Portfolio | Ibrahim Al-Aghbari</title>  
@@ -15,34 +14,33 @@
 <body>  
   
   <!--Navbar-->
-<nav>  
+<nav> 
+
   <h2 ><span>İ</span>brahim.</h2>  
   <ul>  
-    <li><a href="#">Startseite</a></li>  
-    <li><a href="#journey">Mein Werdegang</a></li>  
+    <li><a onclick="change" href="#">Startseite</a></li>  
+    <li><a href="#journey">Mein Weg</a></li>  
     <li><a href="#skills">Kenntnisse</a></li>  
     <li><a href="#my-projects">Projekte</a></li>  
-    <li><a href="#contact">Kontakt</a></li>  
-    <li><a>
-   <select onchange="location = this.value;">
+    <li><a href="#contact">Kontakt</a></li> 
+<select class="language-select" onchange="location = this.value;">
   <option  value="index.html">EN</option>
-  <option value="Benim Portföyüm.html">TR</option>
+  <option  value="Benim Portföyüm.html">TR </option>
   <option selected value="Mein Portfolio.html">DE</option>
 </select>
-    </a></a></li>  
-  </ul>  
+   </ul>  
 </nav>
   <!--Navbar-->
   
-  <!--Home Page-->
+   <!--Home Page-->
   
-  <div class="mom">  
-  <div class="frontpage">  
+  <div class="home-page">  
+  <div class="frontpage-texts">  
   <h1>Ibrahim Al-Aghbari</h1>  
-  <h2 class="inline">Ich bin</h2><h2 id="animated-text"  class="inline">Programmer</h2>  
-  <p>Motiviert und begeistert von Technologie und KI. Lernbereit in Programmierung und daran interessiert, innovative Lösungen zu entwickeln...</p>  
+  <h2 class="inline">Ich bin</h2><h2 id="animated-text"  class="inline">Programmierer</h2>  
+  <p>Motiviert und begeistert von Technologie und KI. Lernbereit im Programmieren und daran interessiert, innovative Lösungen zu schaffen...</p>  
   <div class="socialmedia">  
-  <button class="cv"><a href="https://drive.google.com/file/d/1JI8Nucc7cwiN9ixlPKd7bgyrSxWW9-R_/view?usp=drivesdk">Lebenslauf herunterladen</a></button>  
+  <button class="cv"><a href="https://drive.google.com/file/d/1JI8Nucc7cwiN9ixlPKd7bgyrSxWW9-R_/view?usp=drivesdk">Lebenslauf</a></button>  
   <a href="https://www.facebook.com/share/16dF9LyHF3/" target="_blank" class="facebook">  
   <i class="fab fa-facebook-f"></i>  
   </a>  
@@ -64,51 +62,48 @@
   </div>  
 </div>  
 </div>  
-
 <br><br><br>
-  
+  <!--Home Page-->
+
 <!--my journey-->
-
-
 <section id="journey">
-  
   <div class="father">
     
     <div class="education">
       <h2><span class="headcolor">BIL</span>DUNG</h2>
       <br>
-      <h3>Algemeinen Hochschulreife</h3>
+      <h3>Algemeine Hochschulreife</h3>
       <p class="org">Nibras Privatschule</p>
       <br>
-      <p>Fachrichtung: Naturwissenschaften</p>
-      <p>Durchschnittsnote: 98,88%</p>
-      <p>Note: Sehr gut</p>
+      <p>Studienrichtung: Naturwissenschaftlich</p>
+      <p>Notendurchschnitt: 98,88 %</p>
+      <p>Abschluss: sehr gut</p>
     </div>
   
   <div class="experiences">
     <h2><span class="headcolor">ER</span>FAHRUNGEN</h2>
     <br>
     <h3>Assistent – Druck-, Kopier- und Designservice<pre></pre></h3>
-    <p class="org"> Al-Aghbari Office for Photocopy and Computer</p>
+    <p class="org"> Al-Aghbari Büro für Kopieren und Computer</p>
     <br>
     <h3>Gründungsmitglied und Medienbeauftragter</h3>
-    <p class="org"> Sien Youth Initiative</p>
+    <p class="org"> Sien Jugendinitiative</p>
     <br>
-    <h3>Mathematiklehrer</h3>
-    <p class="org"> At-Tqwa Summerzentrum</p>
+    <h3>Kinderlehrer</h3>
+    <p class="org"> At-Tqwa Sommerzentrum</p>
     <br>
   </div>
   
   <div class="languages">
-    <h2><span class="headcolor">SP</span>RAHCEN</h2>
+    <h2><span class="headcolor">SPRA</span>CHEN</h2>
     <br>
-    <pre><b>Arabisch</b>     &#10162;  Muttersprache</pre>
+    <pre><b>Arabisch</b> &#10162; Muttersprache</pre>
     <br>
-    <pre><b>Türkisch</b>     &#10162;	  C1</pre>
+    <pre><b>Türkisch</b> &#10162; C1</pre>
     <br>
-    <pre><b>Englisch</b>     &#10162;   B2</pre>
+    <pre><b>Englisch</b> &#10162; B2</pre>
     <br>
-    <pre><b>Deutsch</b>     &#10162;	  B1-B2</pre>
+    <pre><b>Deutsch</b> &#10162; B1-B2</pre>
 
   </div>
   
@@ -119,76 +114,104 @@
 <!--myskills-->
 
 <section id="skills">
-  <div class="skills">
+    <h2><span class="headcolor">COMPUTER- </span>KENNTNISSE</h2>
     
-  <div class="itskills">
-    <h2><span class="headcolor">IT-</span>KENNTNISSE </h2>
-    <br>
-    <pre>HTML <div class="rectangle1"></div></pre>
-    <br>
-    <pre>CSS <div class="rectangle2"></div></pre>
-    <br>
-    <pre>Javascript <div class="rectangle3"></div></pre>
-    <br>
-    <pre>Microsoft Office <div class="rectangle4"></div></pre>
-    <br>
-    <pre>Canva <div class="rectangle5"></div></pre>
- </div>
- <div class="otherskills">
-   <h2><span class="headcolor">KOM</span>PETENZEN</h2>
-   <br>
-   <ul>
-
-<li>Motivation und Eigeninitiative</li> 
-<li>Ausdauer</li>
-<li>Zuverlässigkeit</li>
-<li> Kommunikationsfähigkeit</li>
-<li>Zeitmanagement </li>
-<li>Kreativität</li>
-<li>Belastbarkeit</li>
-<li>Lernbereitschaft</li>
-<li>Teamarbeit</li>
-<li>Problemlösungsfähigkeit</li>
-<li>Selbstorganisation</li>
-</ul>
- </div>
- </div>
+    <div class="skills-box">
+      
+      <div class="itskills-grid">
+  <div class="programm">
+    <img src="icons/html.png" alt="">
+    <p>HTML</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/css.png" alt="">
+    <p>CSS</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/js.png" alt="">
+    <p>JavaScript</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/wordpress.png" alt="">
+    <p>WordPress</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/word.png" alt="">
+    <p>Word</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/powerpoint.png" alt="">
+    <p>PowerPoint</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/excel.png" alt="">
+    <p>Excel</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/access.png" alt="">
+    <p>Access</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/outlook.png" alt="">
+    <p>Outlook</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/canva.png" alt="">
+    <p>Canva</p>
+  </div>
+</div>
+    </div>
+    
+    
+    
 </section>
+<!--my skills-->
 
 <!--my-projects-->
 <section id="my-projects">
   
-  <h2><span class="headcolor">MEINE </span>PROJEKTE</h2>
+  <h2><span class="headcolor">NEUESTE </span>PROJEKTE</h2>
   
   <div class="projects">
+    
     <div class="first-project">
       <img src="tanoor logo.jpeg" alt="">
-      <button><a href="https://ibra03him774.github.io/Tanoor/">ANSHAUEN</a></button>
+      <a href="https://ibra03him774.github.io/Tanoor/"><p>ANSEHEN</p></a>
     </div>
     
     
     <div class="second-project">
       <img src="puprushlogo.png" alt="">
-      <button><a href="https://ibra03him774.github.io/PupRush/">ANSHAUEN</a></button>
+      <a href="https://ibra03him774.github.io/PupRush/"><p>ANSEHEN</p></a>
     </div>
-    
-    
+  
+  
   </div>
   
 </section>
 <!--my-projects-->
 
+<!--contact me-->
 <section id="contact">
   <div class="contact">
-    <h2>KONTAKTIERE <span class="headcolor">MICH</span></h2>
+    <h2>KONTAKT <span class="headcolor">MICH</span></h2>
     <div   class="inputs">
       <form>
-      <input type="text" name="Full Name" id="Full Name" placeholder="Vollständiger Name" required >
-      <input type="email" name="email" id="email" placeholder="Email Adress" required>
+      <input type="text" name="Full Name" id="Full Name" placeholder="Vollständiger Name *" required >
+      <input type="email" name="email" id="email" placeholder="Email Adress *" required>
       <br>
-      <input type="tel" name="tel" id="tel" placeholder=" Telefonnummer">
-      <input type="text" name="email-subject" id="email-subject" placeholder="Betreff der Email" required>
-      <input type="text" name="message" id="message" placeholder="Deine Nachricht" required>
+      <input type="number" name="tel" id="tel" placeholder=" Telefonnummer">
+      <input type="text" name="email-subject" id="email-subject *" placeholder="Betreff der Email *" required>
+      <input type="text" name="message" id="message" placeholder=" Ihre Nachricht *" required>
       <br><br>
       <button id="information">Absenden</button>
       </form>
@@ -196,13 +219,10 @@
       </div>
   </div>
 </section>
-
-<footer>
-   <div class="copy">
-   Urheberrecht &copy;2025 von Ibrahim Al-Aghbari | Alle Rechte vorbehaltend</div>
-</footer>
-   
-    
+<div class="copy">
+<p>&copy; 2025 Ibrahim Al-Aghbari | Alle Rechte vorbehalten</p>
+</div>
+<!--contact me-->
 </body>  
   
 </html>  
