@@ -1,49 +1,46 @@
 <!DOCTYPE html>  
 <html lang="tr" dir="ltr">
-  
 <head>  
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1">  
   <meta name="author" content="Ibrahim Al-Aghbari">  
-  <meta name="description" content="Web Siteme Hoş Geldiniz">  
+  <meta name="description" content="Welcome to my Portfolio">  
   <meta name="keywords" content="CV, Ibrahim, Programmer, IT">  
   <meta name="robots" content="index, follow">  
-  <title>Portfolio | Ibrahim Al-Aghbari</title>  
+  <title>Portföy | Ibrahim Al-Aghbari</title>  
   <link rel="stylesheet" href="Benim Portföyüm.css">  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>  
 </head>  
 <body>  
   
   <!--Navbar-->
-<nav>  
+<nav> 
+
   <h2 ><span>İ</span>brahim.</h2>  
   <ul>  
-    <li><a href="#">Ana Sayfa</a></li>  
+    <li><a onclick="change" href="#">Ana Sayfa</a></li>  
     <li><a href="#journey">Yolculuğum</a></li>  
-    <li><a href="#skills">Beceriler</a></li> 
+    <li><a href="#skills">Beceriler</a></li>  
     <li><a href="#my-projects">Projeler</a></li>  
-    <li><a href="#contact">İletişim</a></li>  
-    <li><a>
-<select onchange="location = this.value;">
+    <li><a href="#contact">İletişim</a></li> 
+<select class="language-select" onchange="location = this.value;">
   <option  value="index.html">EN</option>
-  <option selected value="Benim Portföyüm.html">TR</option>
+  <option selected value="Benim Portföyüm.html">TR </option>
   <option value="Mein Portfolio.html">DE</option>
 </select>
-      
-    </a></li>  
-  </ul>  
+   </ul>  
 </nav>
   <!--Navbar-->
   
-  <!--Home Page-->
+   <!--Home Page-->
   
-  <div class="mom">  
-  <div class="frontpage">  
+  <div class="home-page">  
+  <div class="frontpage-texts">  
   <h1>Ibrahim Al-Aghbari</h1>  
-   <h2 class="inline">Ben </h2><h2 id="animated-text"  class="inline">Programcıyım</h2>  
-  <p>Teknolojiye ve yapay zekaya motive ve tutkuluyum. Programlamayı öğrenmeye ve yenilikçi çözümler üretmeye istekliyim...</p>  
+  <h2 class="inline">Ben</h2><h2 id="animated-text"  class="inline">Yazılımcıyım</h2>  
+  <p>Teknoloji ve yapay zekaya ilgili, motive ve tutkulu. Programlamayı öğrenmeye ve yenilikçi çözümler üretmeye hevesliyim...</p>  
   <div class="socialmedia">  
-  <button class="cv"><a href="https://drive.google.com/file/d/1JI8Nucc7cwiN9ixlPKd7bgyrSxWW9-R_/view?usp=drivesdk">CV’yi İndir</a></button>  
+  <button class="cv"><a href="https://drive.google.com/file/d/1MSLTZGfBBMYbJ4NwBwU8UQBujy345Dbv/view?usp=drivesdk">CV İndir</a></button>  
   <a href="https://www.facebook.com/share/16dF9LyHF3/" target="_blank" class="facebook">  
   <i class="fab fa-facebook-f"></i>  
   </a>  
@@ -65,51 +62,49 @@
   </div>  
 </div>  
 </div>  
-
 <br><br><br>
-  
+  <!--Home Page-->
+
 <!--my journey-->
-
-
 <section id="journey">
-  
   <div class="father">
     
     <div class="education">
-    <h2><span class="headcolor">EĞİ</span>TİM</h2>
+      <h2><span class="headcolor">EĞİ</span>TİM</h2>
       <br>
       <h3>Lise</h3>
       <p class="org">Al-Nebras Özel Okulu</p>
       <br>
       <p>Alan: Fen Bilimleri</p>
-      <p>Not Ortalaması: 98.88%</p>
+      <p>Not Ortalamsı: 98.88%</p>
       <p>Derece: Mükemmel</p>
     </div>
   
   <div class="experiences">
-    <h2><span class="headcolor">İŞ</span> TECRUBELERİ</h2>
+    <h2><span class="headcolor">İŞ</span>
+    DENEYİMLERİ</h2>
     <br>
     <h3>Asistan – Baskı, Fotokopi ve Tasarım Hizmetleri<pre></pre></h3>
-    <p class="org">Al-Aghbari Fotokopi ve Bilgisayar Ofisi</p>
+    <p class="org"> Al-Aghbari Fotokopi ve Bilgisayar Ofisi</p>
     <br>
     <h3>Kurucu Üye ve Medya Sorumlusu</h3>
-    <p class="org"> Sien Gençlik İnisiyatifi</p>
+    <p class="org"> Sien Gençlik İnisiyatifi/p>
     <br>
-    <h3>Matematik Öğretmeni</h3>
-    <p class="org"> At-Tqwa Yaz Merkezi</p>
+    <h3>Çocuk Öğretmeni</h3>
+    <p class="org"> Et-Tekva Yaz Merkezi</p>
     <br>
   </div>
   
   <div class="languages">
     <h2><span class="headcolor">DİL</span>LER</h2>
     <br>
-    <pre><b>Arapça</b>     &#10162;	   Ana Dil</pre>
+    <pre><b>Arapça</b> &#10162; Anadil</pre>
     <br>
-    <pre><b>Türkçe</b>    &#10162;	   C1</pre>
+    <pre><b>Türkçe</b> &#10162; C1</pre>
     <br>
-    <pre><b>İngilizce</b>    &#10162;	   B2</pre>
+    <pre><b>İngilizce</b> &#10162; B2</pre>
     <br>
-    <pre><b>Almanca</b>  &#10162;	   B1-B2</pre>
+    <pre><b>Almanca</b> &#10162; B1-B2</pre>
 
   </div>
   
@@ -120,76 +115,104 @@
 <!--myskills-->
 
 <section id="skills">
-  <div class="skills">
+    <h2><span class="headcolor">BİLGİSAYAR </span>BECERİLERİ</h2>
     
-  <div class="itskills">
-    <h2><span class="headcolor">IT-</span>BECERİLERİ </h2>
-    <br>
-    <pre>HTML <div class="rectangle1"></div></pre>
-    <br>
-    <pre>CSS <div class="rectangle2"></div></pre>
-    <br>
-    <pre>Javascript <div class="rectangle3"></div></pre>
-    <br>
-    <pre>Microsoft Office <div class="rectangle4"></div></pre>
-    <br>
-    <pre>Canva <div class="rectangle5"></div></pre>
- </div>
- <div class="otherskills">
-   <h2><span class="headcolor">YETKİN</span>LİKLER</h2>
-   <br>
-   <ul>
-
-<li>Motivasyon ve öz inisiyatif  </li> 
-<li>Sebat</li>
-<li>Güvenilirlik</li>
-<li>İletişim becerileri</li>
-<li>Zaman yönetimi</li>
-<li>Yaratıcılık</li>
-<li>Dayanıklılık</li>
-<li>Öğrenmeye istek</li>
-<li>Takım çalışması</li>
-<li>Problem çözme becerileri</li>
-<li>Öz organizasyon</li>
-</ul>
- </div>
- </div>
+    <div class="skills-box">
+      
+      <div class="itskills-grid">
+  <div class="programm">
+    <img src="icons/html.png" alt="">
+    <p>HTML</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/css.png" alt="">
+    <p>CSS</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/js.png" alt="">
+    <p>JavaScript</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/wordpress.png" alt="">
+    <p>WordPress</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/word.png" alt="">
+    <p>Word</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/powerpoint.png" alt="">
+    <p>PowerPoint</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/excel.png" alt="">
+    <p>Excel</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/access.png" alt="">
+    <p>Access</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/outlook.png" alt="">
+    <p>Outlook</p>
+  </div>
+  
+  <div class="programm">
+    <img src="icons/canva.png" alt="">
+    <p>Canva</p>
+  </div>
+</div>
+    </div>
+    
+    
+    
 </section>
+<!--my skills-->
 
 <!--my-projects-->
 <section id="my-projects">
   
-  <h2><span class="headcolor">PROJELER </span>İM</h2>
+  <h2><span class="headcolor">EN SON </span>PROJELER</h2>
   
   <div class="projects">
+    
     <div class="first-project">
       <img src="tanoor logo.jpeg" alt="">
-      <button><a href="https://ibra03him774.github.io/Tanoor/">GÖRÜNTÜLE</a></button>
+      <a href="https://ibra03him774.github.io/Tanoor/"><p>GÖRÜNTÜLE</p></a>
     </div>
     
     
     <div class="second-project">
       <img src="puprushlogo.png" alt="">
-      <button><a href="https://ibra03him774.github.io/PupRush/">GÖRÜNTÜLE</a></button>
+      <a href="https://ibra03him774.github.io/PupRush/"><p>GÖRÜNTÜLE</p></a>
     </div>
-    
-    
+  
+  
   </div>
   
 </section>
 <!--my-projects-->
 
+<!--contact me-->
 <section id="contact">
   <div class="contact">
     <h2>BENİMLE <span class="headcolor">İLETİŞİME GEÇİN</span></h2>
     <div   class="inputs">
       <form>
-      <input type="text" name="Full Name" id="Full Name" placeholder="Ad Soyad" required >
-      <input type="email" name="email" id="email" placeholder="E-posta Adresi" required>
+      <input type="text" name="Full Name" id="Full Name" placeholder="Ad Soyad *" required >
+      <input type="email" name="email" id="email" placeholder="E-posta Adresi *" required>
       <br>
-      <input type="tel" name="tel" id="tel" placeholder=" Telefon Numarası">
-      <input type="text" name="email-subject" id="email-subject" placeholder="E-posta Konusu" required>
-      <input type="text" name="message" id="message" placeholder="Mesajınız" required>
+      <input type="number" name="tel" id="tel" placeholder="Telefon Numarası">
+      <input type="text" name="email-subject" id="email-subject *" placeholder="E-posta Konusu*" required>
+      <input type="text" name="message" id="message" placeholder="Mesajınız *" required>
       <br><br>
       <button id="information">Gönder</button>
       </form>
@@ -197,13 +220,10 @@
       </div>
   </div>
 </section>
-
-<footer>
-   <div class="copy">
-   Telif Hakkı &copy; 2025 İbrahim Al-Aghbari | Tüm Hakları Saklıdır</div>
-</footer>
-   
-    
+<div class="copy">
+<p>&copy; 2025 İbrahim Al-Aghbari | Tüm hakları saklıdır</p>
+</div>
+<!--contact me-->
 </body>  
   
 </html>  
