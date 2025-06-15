@@ -93,7 +93,6 @@ nav ul li a:hover {
 .language-select:hover {
   background: none;
   border: 3px solid purple;
-  transform: scale(1.05);
 }
 
 .language-select:focus {
