@@ -542,3 +542,832 @@ footer {
   padding: 10px;
   margin-top: 30px;
 }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Navbar */
+  nav {
+    padding: 25px 40px;
+  }
+  
+  nav ul {
+    width: 60%;
+  }
+  
+  /* Home Page */
+  .home-page {
+    padding: 60px 40px;
+  }
+  
+  .frontpage-texts {
+    width: 55%;
+    margin-top: 180px;
+  }
+  
+  .frontpage-texts h1 {
+    font-size: 50px;
+  }
+  
+  .frontpage-texts h2,
+  #animated-text {
+    font-size: 32px;
+  }
+  
+  .frontpage-texts p {
+    width: 90%;
+    font-size: 18px;
+  }
+  
+  .image-box img {
+    max-width: 350px;
+  }
+  
+  /* Journey */
+  .father {
+    width: 95%;
+  }
+  
+  .education, 
+  .experiences, 
+  .languages {
+    width: 30%;
+    padding: 20px;
+  }
+  
+  /* Projects */
+  #my-projects .projects {
+    width: 85%;
+  }
+  
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 280px;
+    height: 280px;
+  }
+  
+  /* Contact */
+  .contact .inputs {
+    width: 80%;
+  }
+  
+  input {
+    font-size: 24px;
+  }
+  
+  #message {
+    width: 650px;
+  }
+}
+
+/* ====== Responsive for Small Laptops (769px - 1024px) ====== */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Navbar */
+  nav {
+    padding: 20px 30px;
+  }
+  
+  nav ul {
+    width: 70%;
+  }
+  
+  /* Home Page */
+  .home-page {
+    padding: 50px 30px;
+  }
+  
+  .frontpage-texts {
+    width: 60%;
+    margin-top: 160px;
+  }
+  
+  .frontpage-texts h1 {
+    font-size: 45px;
+  }
+  
+  .frontpage-texts h2,
+  #animated-text {
+    font-size: 28px;
+  }
+  
+  .frontpage-texts p {
+    width: 100%;
+    font-size: 17px;
+  }
+  
+  .socialmedia {
+    width: 90%;
+  }
+  
+  .image-box img {
+    max-width: 320px;
+  }
+  
+  /* Journey */
+  .father {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  
+  .education, 
+  .experiences, 
+  .languages {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  
+  /* Skills */
+  .itskills-grid {
+    gap: 25px;
+  }
+  
+  .programm {
+    width: 100px;
+  }
+  
+  /* Projects */
+  #my-projects .projects {
+    width: 90%;
+  }
+  
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 250px;
+    height: 250px;
+  }
+  
+  /* Contact */
+  .contact .inputs {
+    width: 85%;
+  }
+  
+  input {
+    font-size: 22px;
+  }
+  
+  #message {
+    width: 600px;
+  }
+}
+
+/* ====== Responsive for Tablets (481px - 768px) ====== */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Navbar */
+  nav {
+    padding: 15px 20px;
+  }
+  
+  nav ul {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  nav ul li a {
+    font-size: 14px;
+  }
+  
+  .language-select {
+    width: 70px;
+    font-size: 12px;
+  }
+  
+  /* Home Page */
+  .home-page {
+    padding: 40px 20px;
+  }
+  
+  .frontpage-texts {
+    width: 100%;
+    margin-top: 140px;
+    padding: 15px;
+  }
+  
+  .frontpage-texts h1 {
+    font-size: 38px;
+  }
+  
+  .frontpage-texts h2,
+  #animated-text {
+    font-size: 26px;
+  }
+  
+  .frontpage-texts p {
+    font-size: 16px;
+    padding: 10px 0 15px 0;
+  }
+  
+  .socialmedia {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cv {
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+  }
+  
+  .image-box img {
+    max-width: 280px;
+  }
+  
+  /* Journey */
+  .father {
+    width: 100%;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .education, 
+  .experiences, 
+  .languages {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  .education h2, 
+  .experiences h2, 
+  .languages h2 {
+    font-size: 32px;
+  }
+  
+  /* Skills */
+  #skills h2 {
+    font-size: 40px;
+  }
+  
+  .itskills-grid {
+    gap: 20px;
+  }
+  
+  .programm {
+    width: 80px;
+  }
+  
+  .programm img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .programm p {
+    font-size: 13px;
+  }
+  
+  /* Projects */
+  #my-projects h2 {
+    font-size: 40px;
+  }
+  
+  #my-projects .projects {
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 45%;
+    height: 220px;
+  }
+  
+  /* Contact */
+  .contact h2 {
+    font-size: 40px;
+  }
+  
+  .contact .inputs {
+    width: 90%;
+  }
+  
+  input {
+    font-size: 18px;
+  }
+  
+  #message {
+    height: 120px;
+  }
+  
+  .contact button {
+    width: 110px;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+
+/* ====== Responsive for Mobile Phones (320px - 480px) ====== */
+@media (max-width: 480px) {
+  /* Navbar */
+  nav {
+    padding: 10px 15px;
+  }
+  
+  nav h2 {
+    font-size: 20px;
+  }
+  
+  nav ul {
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  nav ul li a {
+    font-size: 12px;
+  }
+  
+  .language-select {
+    width: 60px;
+    height: 25px;
+    font-size: 11px;
+  }
+  
+  /* Home Page */
+  .home-page {
+    padding: 30px 15px;
+  }
+  
+  .frontpage-texts {
+    margin-top: 120px;
+    padding: 10px;
+  }
+  
+  .frontpage-texts h1 {
+    font-size: 30px;
+  }
+  
+  .frontpage-texts h2,
+  #animated-text {
+    font-size: 22px;
+  }
+  
+  .frontpage-texts p {
+    font-size: 14px;
+    padding: 8px 0 12px 0;
+  }
+  
+  .socialmedia {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .cv {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+  
+  .socialmedia a i {
+    font-size: 16px;
+  }
+  
+  .image-box img {
+    max-width: 220px;
+    border-width: 3px;
+  }
+  
+  /* Journey */
+  .education, 
+  .experiences, 
+  .languages {
+    width: 95%;
+    padding: 12px;
+    font-size: 13px;
+  }
+  
+  .education h2, 
+  .experiences h2, 
+  .languages h2 {
+    font-size: 28px;
+  }
+  
+  .education h3, 
+  .languages h3 {
+    font-size: 18px;
+  }
+  
+  .languages pre {
+    font-size: 16px;
+  }
+  
+  /* Skills */
+  #skills h2 {
+    font-size: 32px;
+    padding: 10px;
+  }
+  
+  .itskills-grid {
+    gap: 15px;
+  }
+  
+  .programm {
+    width: 70px;
+  }
+  
+  .programm img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .programm p {
+    font-size: 12px;
+  }
+  
+  /* Projects */
+  #my-projects h2 {
+    font-size: 32px;
+    padding: 10px;
+  }
+  
+  #my-projects .projects {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 90%;
+    height: 200px;
+    border-width: 5px;
+  }
+  
+  #my-projects .projects .first-project a,
+  #my-projects .projects .second-project a,
+  #my-projects .projects .third-project a {
+    height: 50px;
+    font-size: 12px;
+    border-width: 2px;
+  }
+  
+  /* Contact */
+  .contact h2 {
+    font-size: 32px;
+  }
+  
+  .contact .inputs {
+    width: 95%;
+  }
+  
+  input {
+    font-size: 16px;
+    border-width: 3px;
+  }
+  
+  #message {
+    height: 100px;
+  }
+  
+  .contact button {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+  
+  /* Footer */
+  .copy p {
+    font-size: 12px;
+  }
+}
+
+/* ====== Responsive for Large TVs (1441px and above) ====== */
+@media (min-width: 1441px) {
+  /* General Container */
+  body {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  /* Navbar */
+  nav {
+    padding: 35px 60px;
+  }
+  
+  nav ul {
+    width: 50%;
+  }
+  
+  nav ul li a {
+    font-size: 18px;
+  }
+  
+  /* Home Page */
+  .home-page {
+    padding: 80px 60px;
+  }
+  
+  .frontpage-texts h1 {
+    font-size: 70px;
+  }
+  
+  .frontpage-texts h2,
+  #animated-text {
+    font-size: 45px;
+  }
+  
+  .frontpage-texts p {
+    font-size: 22px;
+    width: 800px;
+  }
+  
+  .socialmedia {
+    width: 450px;
+  }
+  
+  .cv {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+  }
+  
+  .socialmedia a i {
+    font-size: 24px;
+  }
+  
+  .image-box img {
+    max-width: 450px;
+    height: 700px;
+  }
+  
+  /* Journey */
+  .father {
+    width: 85%;
+  }
+  
+  .education, 
+  .experiences, 
+  .languages {
+    width: 350px;
+    padding: 25px;
+  }
+  
+  .education h2, 
+  .experiences h2, 
+  .languages h2 {
+    font-size: 55px;
+  }
+  
+  .education h3, 
+  .languages h3 {
+    font-size: 32px;
+  }
+  
+  .education p, 
+  .experiences p, 
+  .languages pre {
+    font-size: 18px;
+  }
+  
+  /* Skills */
+  #skills h2 {
+    font-size: 80px;
+  }
+  
+  .itskills-grid {
+    gap: 40px;
+  }
+  
+  .programm {
+    width: 140px;
+  }
+  
+  .programm img {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .programm p {
+    font-size: 18px;
+  }
+  
+  /* Projects */
+  #my-projects h2 {
+    font-size: 80px;
+  }
+  
+  #my-projects .projects {
+    width: 80%;
+  }
+  
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 350px;
+    height: 350px;
+  }
+  
+  /* Contact */
+  .contact h2 {
+    font-size: 80px;
+  }
+  
+  .contact .inputs {
+    width: 70%;
+  }
+  
+  input {
+    font-size: 28px;
+  }
+  
+  #message {
+    width: 800px;
+    height: 250px;
+  }
+  
+  .contact button {
+    width: 180px;
+    height: 70px;
+    font-size: 24px;
+  }
+}
+
+
+/* ====== Responsive for Large Laptops (1025px - 1440px) ====== */
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+  /* Projects */
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 280px;
+    height: 280px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+  }
+
+  #my-projects .projects .first-project a,
+  #my-projects .projects .second-project a,
+  #my-projects .projects .third-project a {
+    margin-top: 20px;
+  }
+
+  /* Contact */
+  .contact .inputs {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  input {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #message {
+    width: 100%;
+  }
+}
+
+/* ====== Responsive for Small Laptops (769px - 1024px) ====== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* Projects */
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+  }
+
+  #my-projects .projects .first-project a,
+  #my-projects .projects .second-project a,
+  #my-projects .projects .third-project a {
+    margin-top: 15px;
+  }
+
+  /* Contact */
+  .contact .inputs {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  input {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  #message {
+    width: 100%;
+  }
+}
+
+/* ====== Responsive for Tablets (481px - 768px) ====== */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  /* Projects */
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 45%;
+    height: 220px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+  }
+
+  #my-projects .projects .first-project a,
+  #my-projects .projects .second-project a,
+  #my-projects .projects .third-project a {
+    margin-top: 10px;
+    height: 40px;
+  }
+
+  /* Contact */
+  .contact .inputs {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  input {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  #message {
+    width: 100%;
+    height: 120px;
+  }
+}
+
+/* ====== Responsive for Mobile Phones (320px - 480px) ====== */
+@media (max-width: 480px) {
+
+  /* Projects */
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 50%;
+    height: 200px;
+    padding-bottom: 15px;
+    justify-content: space-around;
+  }
+
+  #my-projects .projects .first-project a,
+  #my-projects .projects .second-project a,
+  #my-projects .projects .third-project a {
+    margin-top: 10px;
+    height: 40px;
+  }
+
+  /* Contact */
+  .contact .inputs {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  input {
+    width: 100%;
+    margin: 6px 0;
+  }
+
+  #message {
+    width: 100%;
+    height: 100px;
+  }
+}
+
+/* ====== Responsive for Large TVs (1441px and above) ====== */
+@media (min-width: 1441px) {
+
+  /* Projects */
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 350px;
+    height: 350px;
+    padding-bottom: 40px;
+    justify-content: space-around;
+  }
+
+  #my-projects .projects .first-project a,
+  #my-projects .projects .second-project a,
+  #my-projects .projects .third-project a {
+    margin-top: 30px;
+    height: 60px;
+  }
+
+  /* Contact */
+  .contact .inputs {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  input {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  #message {
+    width: 100%;
+    height: 250px;
+  }
+}
