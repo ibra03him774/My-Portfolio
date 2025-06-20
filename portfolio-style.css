@@ -543,6 +543,219 @@ footer {
   margin-top: 30px;
 }
 
+
+/* ====== Responsive for tablets (width ≤ 1024px) ====== */
+@media (max-width: 1024px) {
+  /* Navbar */
+  nav {
+    width: 100%;
+    padding: 20px 15px;
+    flex-wrap: wrap;
+  }
+  
+  nav ul {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  nav ul li a {
+    font-size: 14px;
+  }
+  
+  /* Home Page */
+  .home-page {
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+  
+  .frontpage-texts {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .frontpage-texts h1 {
+    font-size: 40px;
+  }
+  
+  .frontpage-texts h2,
+  #animated-text {
+    font-size: 28px;
+  }
+  
+  .frontpage-texts p {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 0 20px 0;
+  }
+  
+  .socialmedia {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-left: 0;
+  }
+  
+  .image-box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .image-box img {
+    width: 80%;
+    height: auto;
+    max-width: 350px;
+    margin-left: 0;
+  }
+  
+  /* Journey */
+  #journey {
+    height: auto;
+    padding: 40px 10px;
+  }
+  
+  .father {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-right: 0;
+  }
+  
+  .education, .experiences, .languages {
+    width: 90%;
+    margin-left: 0;
+    padding: 15px;
+    font-size: 14px;
+  }
+  
+  .education h2, .experiences h2, .languages h2 {
+    font-size: 36px;
+  }
+  
+  .education h3, .languages h3 {
+    font-size: 22px;
+  }
+  
+  /* Skills */
+  #skills {
+    height: auto;
+    padding: 40px 10px;
+  }
+  
+  #skills h2 {
+    font-size: 50px;
+  }
+  
+  .itskills-grid {
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .programm {
+    width: 90px;
+  }
+  
+  .programm img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .programm p {
+    font-size: 14px;
+  }
+  
+  /* Projects */
+  #my-projects {
+    height: auto;
+    padding: 40px 10px;
+  }
+  
+  #my-projects h2 {
+    font-size: 50px;
+  }
+  
+  #my-projects .projects {
+    flex-direction: column;
+    gap: 30px;
+    width: 90%;
+  }
+  
+  #my-projects .projects .first-project,
+  #my-projects .projects .second-project,
+  #my-projects .projects .third-project {
+    width: 100%;
+    height: auto;
+    border-width: 5px;
+    gap: 15px;
+  }
+  
+  #my-projects .projects .first-project a,
+  #my-projects .projects .second-project a,
+  #my-projects .projects .third-project a {
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    border-width: 3px;
+  }
+  
+  #my-projects .projects .first-project a p,
+  #my-projects .projects .second-project a p,
+  #my-projects .projects .third-project a p {
+    font-size: 13px;
+    padding: 5px;
+  }
+  
+  /* Contact */
+  #contact {
+    height: auto;
+    padding: 40px 10px;
+  }
+  
+  .contact h2 {
+    font-size: 50px;
+  }
+  
+  .contact .inputs {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  input {
+    font-size: 20px;
+    width: 100%;
+    margin: 8px 0;
+  }
+  
+  #message {
+    width: 100%;
+    height: 150px;
+  }
+  
+  .contact button {
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    height: auto;
+  }
+  
+  .copy {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: 20px;
+  }
+}
+
+
+/* ====== Responsive for Large Laptops (1025px - 1440px) ====== */
 @media (min-width: 1025px) and (max-width: 1440px) {
   /* Navbar */
   nav {
@@ -1188,6 +1401,7 @@ footer {
 
 /* ====== Responsive for Large Laptops (1025px - 1440px) ====== */
 @media (min-width: 1025px) and (max-width: 1440px) {
+  /* ... الأكواد السابقة تبقى كما هي ... */
 
   /* Projects */
   #my-projects .projects .first-project,
@@ -1195,35 +1409,36 @@ footer {
   #my-projects .projects .third-project {
     width: 280px;
     height: 280px;
-    padding-bottom: 30px;
-    justify-content: space-between;
+    padding-bottom: 30px; /* زيادة المسافة بين الصورة ورابط VIEW */
+    justify-content: space-between; /* توزيع المساحة بين العناصر */
   }
 
   #my-projects .projects .first-project a,
   #my-projects .projects .second-project a,
   #my-projects .projects .third-project a {
-    margin-top: 20px;
+    margin-top: 20px; /* زيادة المسافة من الأعلى */
   }
 
   /* Contact */
   .contact .inputs {
-    width: 70%;
-    margin: 0 auto;
-    padding: 0 15px;
+    width: 70%; /* تقليل عرض مربعات الإدخال */
+    margin: 0 auto; /* توسيط العناصر */
+    padding: 0 15px; /* إضافة هوامش */
   }
 
   input {
     width: 100%;
-    margin: 10px 0;
+    margin: 10px 0; /* زيادة المسافة بين الحقول */
   }
 
   #message {
-    width: 100%;
+    width: 100%; /* جعلها تأخذ العرض الكامل المتاح */
   }
 }
 
 /* ====== Responsive for Small Laptops (769px - 1024px) ====== */
 @media (min-width: 769px) and (max-width: 1024px) {
+  /* ... الأكواد السابقة تبقى كما هي ... */
 
   /* Projects */
   #my-projects .projects .first-project,
@@ -1260,6 +1475,7 @@ footer {
 
 /* ====== Responsive for Tablets (481px - 768px) ====== */
 @media (min-width: 481px) and (max-width: 768px) {
+  /* ... الأكواد السابقة تبقى كما هي ... */
 
   /* Projects */
   #my-projects .projects .first-project,
@@ -1298,6 +1514,7 @@ footer {
 
 /* ====== Responsive for Mobile Phones (320px - 480px) ====== */
 @media (max-width: 480px) {
+  /* ... الأكواد السابقة تبقى كما هي ... */
 
   /* Projects */
   #my-projects .projects .first-project,
@@ -1336,6 +1553,7 @@ footer {
 
 /* ====== Responsive for Large TVs (1441px and above) ====== */
 @media (min-width: 1441px) {
+  /* ... الأكواد السابقة تبقى كما هي ... */
 
   /* Projects */
   #my-projects .projects .first-project,
